@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 void _puts(char *str)
 {
@@ -44,7 +42,7 @@ int _atoi(const char *s)
 /**
  * print_int - prints an integer.
  * @n: int
- * Return: 0
+ * Return: 
  */
 
 void print_int(unsigned long int n)
@@ -67,7 +65,7 @@ for (; divisor >= 1; n %= divisor, divisor /= 10)
  * main - print the result of the multiplication, followed by a new line
  * @argc: int
  * @argv: list
- * Return: 0
+ * Return: 
  */
 
 int main(int argc, char const *argv[])
